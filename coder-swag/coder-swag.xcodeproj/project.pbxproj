@@ -17,6 +17,7 @@
 		75094DF5223996BA00986277 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75094DF4223996BA00986277 /* DataService.swift */; };
 		750AC65F2242CCEA005E4B74 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AC65E2242CCEA005E4B74 /* ProductCell.swift */; };
 		750AC6612242CEAA005E4B74 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AC6602242CEAA005E4B74 /* Product.swift */; };
+		750AC6662242E677005E4B74 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750AC6652242E677005E4B74 /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		75094DF4223996BA00986277 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		750AC65E2242CCEA005E4B74 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		750AC6602242CEAA005E4B74 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		750AC6652242E677005E4B74 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,9 @@
 		75094DD922398CA600986277 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
-				75094DF32239968900986277 /* Service */,
-				75094DEE2239910D00986277 /* Model */,
 				75094DED2239910400986277 /* Controller */,
+				75094DEE2239910D00986277 /* Model */,
+				75094DF32239968900986277 /* Service */,
 				75094DEC22398D0400986277 /* View */,
 				75094DDA22398CA600986277 /* AppDelegate.swift */,
 				75094DDE22398CA600986277 /* Main.storyboard */,
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				75094DDC22398CA600986277 /* CategoriesVC.swift */,
+				750AC6652242E677005E4B74 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750AC6662242E677005E4B74 /* ProductsVC.swift in Sources */,
 				75094DDD22398CA600986277 /* CategoriesVC.swift in Sources */,
 				75094DDB22398CA600986277 /* AppDelegate.swift in Sources */,
 				75094DF02239918300986277 /* CategoryCell.swift in Sources */,

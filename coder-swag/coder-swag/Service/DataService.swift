@@ -18,25 +18,25 @@ class DateService {
     ]
     
     private let hats = [
-        Product(title: "Devslopes Logo Graphic Beanie", price: "$19" ,imageName: "hats01.png"),
-        Product(title: "Devslopes Logo Hat Black", price: "$22" ,imageName: "hats02.png"),
-        Product(title: "Devslopes Logo Hat White", price: "$23" ,imageName: "hats03.png"),
-        Product(title: "Devslopes Logo Snapback", price: "$25" ,imageName: "hats04.png")
+        Product(title: "Devslopes Logo Graphic Beanie", price: "$19" ,imageName: "hat01.png"),
+        Product(title: "Devslopes Logo Hat Black", price: "$22" ,imageName: "hat02.png"),
+        Product(title: "Devslopes Logo Hat White", price: "$23" ,imageName: "hat03.png"),
+        Product(title: "Devslopes Logo Snapback", price: "$25" ,imageName: "hat04.png")
     ]
     
     private let hoodies = [
-        Product(title: "Devslopes Logo Hoodies Grey", price: "$19" ,imageName: "hoodies01.png"),
-        Product(title: "Devslopes Logo Hoodies Red", price: "$22" ,imageName: "hoodies02.png"),
-        Product(title: "Devslopes Logo Hoodies White", price: "$23" ,imageName: "hoodies03.png"),
-        Product(title: "Devslopes Logo Hoodies Black", price: "$25" ,imageName: "hoodies04.png")
+        Product(title: "Devslopes Logo Hoodies Grey", price: "$19" ,imageName: "hoodie01.png"),
+        Product(title: "Devslopes Logo Hoodies Red", price: "$22" ,imageName: "hoodie02.png"),
+        Product(title: "Devslopes Logo Hoodies White", price: "$23" ,imageName: "hoodie03.png"),
+        Product(title: "Devslopes Logo Hoodies Black", price: "$25" ,imageName: "hoodie04.png")
     ]
     
     private let shirts = [
-        Product(title: "Devslopes Logo shirt Grey", price: "$19" ,imageName: "shirts01.png"),
-        Product(title: "Devslopes Logo shirt Black", price: "$22" ,imageName: "shirts02.png"),
-        Product(title: "Devslopes Logo shirt White", price: "$23" ,imageName: "shirts03.png"),
-        Product(title: "Devslopes Logo shirt Black", price: "$25" ,imageName: "shirts04.png"),
-        Product(title: "Devslopes Logo shirt light grey", price: "$25" ,imageName: "shirts05.png")
+        Product(title: "Devslopes Logo shirt Grey", price: "$19" ,imageName: "shirt01.png"),
+        Product(title: "Devslopes Logo shirt Black", price: "$22" ,imageName: "shirt02.png"),
+        Product(title: "Devslopes Logo shirt White", price: "$23" ,imageName: "shirt03.png"),
+        Product(title: "Devslopes Logo shirt Black", price: "$25" ,imageName: "shirt04.png"),
+        Product(title: "Devslopes Logo shirt light grey", price: "$25" ,imageName: "shirt05.png")
     ]
     
     private let digital = [Product]()
@@ -51,10 +51,10 @@ class DateService {
             return getShirt()
         case "HATS":
             return getHats()
-        case "HOODIES":
+        case "HODIES":
             return getHoodies()
         case "DIGITAL":
-            return getHats()
+            return getDigitals()
         default:
             return getShirt()
         }
